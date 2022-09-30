@@ -1,7 +1,41 @@
-[
-  {
-    "img": "gallery_img-01.jpg",
-    "categoty": "software",
-    "title": "e-office"
-  }
-]
+{
+  "software": [
+    {
+      "img": "data/software/gallery_img-01.jpg",
+      "url": "data/software/gallery_img-01.jpg",
+      "title": ""
+    },
+    {
+      "img": "data/software/gallery_img-02.jpg",
+      "url": "data/software/gallery_img-01.jpg",
+      "title": ""
+    },
+    {
+      "img": "data/software/gallery_img-03.jpg",
+      "url": "data/software/gallery_img-01.jpg",
+      "title": ""
+    },
+    {
+      "img": "data/software/gallery_img-04.jpg",
+      "url": "data/software/gallery_img-01.jpg",
+      "title": ""
+    },
+    {
+      "img": "data/software/gallery_img-05.jpg",
+      "url": "data/software/gallery_img-01.jpg",
+      "title": ""
+    }
+  ],
+  "riset": [
+    {
+      "img": "data/riset/jurnal-1.jpg",
+      "url": "https://infeb.org/index.php/infeb/article/view/143",
+      "title": ""
+    },
+    {
+      "img": "data/riset/jurnal-2.jpg",
+      "url": "http://www.ejournal.uniks.ac.id/index.php/JUPERSATEK/article/view/1598/1154",
+      "title": ""
+    }
+  ]
+}
