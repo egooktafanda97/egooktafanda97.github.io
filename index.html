@@ -16,9 +16,14 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <head>
+    <!-- <link
+      rel="icon"
+      href="https://freepik.cdnpk.net/img/favicons/favicon.ico?v=2018082101"
+      type="image/x-icon"
+    /> -->
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> -->
+    <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png" /> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -402,42 +407,13 @@
           <div class="col-md-12">
             <div class="button-group filter-button-group text-left">
               <button class="active" data-filter="*">All</button>
-              <button data-filter=".gal_a">Software</button>
-              <button data-filter=".gal_b">Riset</button>
+              <button data-filter=".software">Software</button>
+              <button data-filter=".riset">Riset</button>
             </div>
           </div>
         </div>
         <!--  -->
-        <div class="gallery-list row">
-          <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
-            <div class="gallery-single fix">
-              <img
-                src="uploads/gallery_img-01.jpg"
-                class="img-fluid"
-                alt="Image"
-              />
-              <div
-                class="text-center"
-                style="
-                  position: relative;
-                  margin-top: -30px;
-                  background-color: rgba(0, 0, 0, 0.5);
-                  color: #fff;
-                "
-              >
-                <span>Lorem ipsum dolor sit amet consectetur</span>
-              </div>
-              <div class="img-overlay">
-                <a
-                  href="uploads/gallery_img-01.jpg"
-                  data-rel="prettyPhoto[gal]"
-                  class="hoverbutton global-radius"
-                  ><i class="fa fa-picture-o"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div id="prt"></div>
         <!--  -->
       </div>
     </div>
@@ -929,5 +905,7 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/data-porto.js"></script>
   </body>
 </html>
